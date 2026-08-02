@@ -1,7 +1,24 @@
 aid: tello
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tello.png
 name: Tello
-description: Tello is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tello (Tello Applications, Inc.) was a customer-feedback and customer-service ratings
+  startup founded in 2010 in Palo Alto, California by Joe Beninato and backed by 500 Global. It offered a
+  free web and mobile application that let consumers rate and comment on their in-person service experiences
+  at businesses (including feedback on specific employees), and sold businesses paid dashboard access to
+  monitor how their staff were rated. The company has since shut down; no live product, developer program,
+  or public API surface remains, so this record is retained as a defunct-company profile rather than an
+  active provider for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/tello/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +26,33 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-founded: '2010'
+x-founder: Joe Beninato
+x-headquarters: Palo Alto, CA, USA
+x-note: The company Tello Applications (customer-feedback SaaS) is closed. The domain tello.com now hosts
+  an unrelated active company (Tello Mobile, a US MVNO) and does NOT belong to this portfolio company; no
+  Website pointer is asserted to avoid conflating the two.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Customer Feedback
+- Customer Service
+- Reviews and Ratings
+- SaaS
+- Mobile App
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://tello.com
+common: []
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
