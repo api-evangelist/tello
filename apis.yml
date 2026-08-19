@@ -33,7 +33,7 @@ x-headquarters: Palo Alto, CA, USA
 x-note: The company Tello Applications (customer-feedback SaaS) is closed. The domain tello.com now hosts
   an unrelated active company (Tello Mobile, a US MVNO) and does NOT belong to this portfolio company; no
   Website pointer is asserted to avoid conflating the two.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
